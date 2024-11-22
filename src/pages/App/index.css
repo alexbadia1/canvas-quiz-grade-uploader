@@ -1,0 +1,46 @@
+.app {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  overflow-y: scroll;
+}
+
+.tab-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.tab-action {
+  font-size: 10px;
+}
+
+.tab-action:hover {
+  text-decoration: underline;
+}
+
+.tab-focused {
+  text-decoration: underline;
+}
+
+.gutter-8px {
+  width: 8px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  flex-direction: flex-start;
+  align-items: flex-start;
+
+  width: 100%;
+  height: 100%;
+}

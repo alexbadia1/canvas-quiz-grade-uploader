@@ -1,0 +1,37 @@
+{
+  "name": "Canvas SpeedGrader Buddy",
+  "version": "1.0.0",
+  "description": "Canvas SpeedGrader Buddy",
+  "icons": {
+    "16": "favicon.svg",
+    "48": "favicon.svg",
+    "128": "favicon.svg"
+  },
+  "manifest_version": 3,
+  "author": "Alex Badia",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "sidePanel",
+    "declarativeContent"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://canvas.illinois.edu/*"],
+      "js": ["content.js"],
+      "all_frames": false,
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_title": "Canvas SpeedGrader Buddy"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "Alex Badia": {
+        "grade": 69,
+        "comments": "[-1 point] Bottom row size and location are incorrect\n[-1 point] Middle row size and location are incorrect\n[-1.5 points] One or more paintings in the bottom row is incorrect\n[-1.5 points] One or more paintings in the middle row is incorrect\n[-1.5 points] One or more paintings in the top row is incorrect\n[-1 point] Top row size and location are incorrect\n[-0.5 point] Missing \"display: flex;\" in .wall\n[-0.5 point] Missing \"flex-direction: column;\" in .wall\n[-0.5 point] Missing \"flex-direction: row-reverse;\" in \".wall .row:nth-child(3)\"\n[-0.5 point] Missing \"justify-content: space-around;\" in \".wall .row:nth-child(1)\"\n[-0.5 point] Missing \"justify-content: space-between;\" in \".wall .row:nth-child(2)\"\n[-0.5 point] Missing \"justify-content: space-evenly;\" in .wall",
+        "full_name": "Alex Badia",
+        "canvas_id": "696969"
+    }
+}

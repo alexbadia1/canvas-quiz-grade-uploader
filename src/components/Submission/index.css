@@ -1,0 +1,22 @@
+.email {
+  width: 100%;
+  height: auto;
+  padding: 2px 8px;
+  color: white;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  font-size: inherit;
+  line-height: 1.2;
+  white-space: pre-wrap;
+  word-break: break-all;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.email:hover {
+  background-color: rgba(204, 246, 255, var(--opacity));
+}
